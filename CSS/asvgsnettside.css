@@ -125,6 +125,10 @@ body {
         background-color: #1C2541;
       }
       
+      img {
+        border: 7px solid #1C2541;
+      }
+
       @media screen and (min-width: 300px) {
         body {
           background-color:#1C2541;
