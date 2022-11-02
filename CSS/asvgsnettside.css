@@ -6,6 +6,7 @@ style
 
 body {
   margin: 0;
+  background-color: #1C2541;
 }
 
 .topnav {
@@ -27,33 +28,30 @@ body {
   color: black;
 }
 
-     .item1 { grid-area: header; }
-     .item2 { grid-area: knappar; }
-     .item3 { grid-area: menu; }
-     .item4 { grid-area: main; }
+  .item1 { grid-area: header; }
+  .item2 { grid-area: knappar; }
+  .item3 { grid-area: menu; }
+  .item4 { grid-area: main; }
         
-    .grid-container {
-          display: grid;
-          grid-template-areas:
-            'topnav topnav topnav topnav topnav topnav'
-            'header header header header header knappar'
-            'menu main main main main main'
-            'menu main main main main main';
-          gap: 5px;
-          background-color: #1C2541;
-          padding: 8px;
-        }    
-    .grid-container > div {
-          background-color: rgb(138, 206, 218);
-          text-align: left;
-          padding: 10px ;
-          font-size: 30px; 
-       
-        }
-        .grid-container  {
-          display: grid;
-          column-gap: 0px;
-        }
+  .grid-container {
+      display: grid;
+      grid-template-areas:
+        'topnav topnav topnav topnav topnav topnav'
+        'header header header header header knappar'
+        'menu main main main main main'
+        'menu main main main main main';
+        gap: 5px;
+        background-color: #1C2541;
+        padding: 8px;
+      }    
+  .grid-container > div {
+        background-color: rgb(138, 206, 218);
+        text-align: left;
+        padding: 10px ;
+        font-size: 30px; 
+        display: grid;
+        column-gap: 0px;
+      }
  
     .button {
       background-color: #1C2541;
@@ -122,9 +120,7 @@ body {
           background-color: #1C2541;
         }
 
-      body {
-        background-color: #1C2541;
-      }
+     
       
       img {
         border: 7px solid #1C2541;
