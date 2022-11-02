@@ -52,6 +52,9 @@
    text-align: center;
     }
     img {
+      border: 7px solid #1C2541;
+    }
+    img {
         width: 100%;
         height: auto;
       }
